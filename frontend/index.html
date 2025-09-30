@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amna Hashim - Cloud Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f7f9fc;
+      color: #333;
+    }
+    h1 {
+      color: #0366d6;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Amna Hashim</h1>
+  <h2>Cloud & DevOps Engineer</h2>
+
+  <div class="section">
+    <h3>About Me</h3>
+    <p>Azure Certified (AZ-104, AZ-305). Passionate about cloud, automation, and DevOps. Building hands-on projects to showcase skills in cloud engineering and CI/CD pipelines.</p>
+  </div>
+
+  <div class="section">
+    <h3>Skills</h3>
+    <ul>
+      <li>Azure Cloud Services</li>
+      <li>Terraform (Infrastructure as Code)</li>
+      <li>CI/CD with GitHub Actions</li>
+      <li>Docker & Kubernetes (AKS)</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h3>Contact</h3>
+    <p>GitHub: <a href="https://github.com/amna-hashim-tech" target="_blank">amna-hashim-tech</a></p>
+    <p>LinkedIn: <a href="#" target="_blank">Your LinkedIn URL</a></p>
+  </div>
+
+  <div class="section">
+    <h3>Visitor Count</h3>
+    <p id="visitor-count">Loading...</p>
+  </div>
+
+  <script>
+    // This will later call our Azure Function for visitor count
+    document.getElementById("visitor-count").innerText = "0";
+  </script>
+</body>
+</html>
